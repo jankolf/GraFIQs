@@ -6,13 +6,13 @@
   <span style="display:block; height: 20em;">&emsp;</span>
   <p><b>Jan Niklas Kolf</b><sup> 1,2</sup> &emsp; <b>Naser Damer</b><sup> 1,2</sup> &emsp; <b>Fadi Boutros</b><sup> 1</sup></p>
   <p><sup>1 </sup>Fraunhofer IGD &emsp; <sup>2 </sup>Technische Universität Darmstadt</p>
-  <span style="display:block; height: 50em;">&emsp;</span>
+  <p>Accepted at CVPR Workshop 2024</p>
 </div>
 
 <div align="center">
         <a href="https://arxiv.org/pdf/2404.12203.pdf"><img src="https://github.com/jankolf/assets/blob/main/badges/download-paper-arxiv-c1.svg?raw=true"></a>
         &emsp;
-        <a href="https://share.jankolf.de/s/WWCXmNkj7FTcRpR"><img src="https://github.com/jankolf/assets/blob/main/badges/download-data-c1.svg?raw=true"></a>
+        <a href="https://share.jankolf.de/s/WWCXmNkj7FTcRpR"><img src="https://github.com/jankolf/assets/blob/main/badges/download-models-c1.svg?raw=true"></a>
 </div>
 
 
