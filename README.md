@@ -1,6 +1,6 @@
 <div align="center"> Official repository of </div>
 
-# <div align="center"> GraFIQs: Face Image Quality Assessment Using Gradient Magnitudes </div>
+# <div align="center"> GraFIQs: Face Image Quality Assessment <br> Using Gradient Magnitudes </div>
 
 <div align="center", padding="30px">
   <span style="display:block; height: 20em;">&emsp;</span>
@@ -88,4 +88,4 @@ If you found this work helpful for your research, please cite the article with t
 
 This project is licensed under the terms of the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
-Copyright (c) 2024 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
+Copyright (c) 2024 Fraunhofer Institute for Computer Graphics Research IGD, Darmstadt.
