@@ -20,24 +20,28 @@
 <div align="center">
     <img width="50%" src="https://raw.githubusercontent.com/jankolf/assets/main/GraFIQs/overview.svg">
 </div>
+
 An overview of the proposed GraFIQs for assessing the quality of unseen testing samples.
-Sample _I_ is passed into the pretrained face recognition model and Batch Normalization statistics are extracted. Then, the mean-squared-error between the Batch Normalization statistics obtained by processing the testing sample and the one recorded during the face recognition training is calculated.
+Sample *I* is passed into the pretrained face recognition model and Batch Normalization statistics are extracted. Then, the mean-squared-error between the Batch Normalization statistics obtained by processing the testing sample and the one recorded during the face recognition training is calculated.
 The mean-squared-error is backpropagated through the pretrained face recognition model to extract the gradient magnitudes of parameter group φ.
 Finally, the absolute sum of gradient magnitudes of φ is calculated and utilized as Face Image Quality.
 
 
 ## <div align="center"> Abstract 🤏 </div>
+
 Face Image Quality Assessment (FIQA) estimates the utility of face images for automated face recognition (FR) systems. We propose in this work a novel approach to assess the quality of face images based on inspecting the required changes in the pre-trained FR model weights to minimize differences between testing samples and the distribution of the FR training dataset. To achieve that, we propose quantifying the discrepancy in Batch Normalization statistics (BNS), including mean and variance, between those recorded during FR training and those obtained by processing testing samples through the pretrained FR model. We then generate gradient magnitudes of pretrained FR weights by backpropagating the BNS through the pretrained model. The cumulative absolute sum of these gradient magnitudes serves as the FIQ for our approach. Through comprehensive experimentation, we demonstrate the effectiveness of our training-free and quality labeling-free approach, achieving competitive performance to recent state-of-theart FIQA approaches without relying on quality labeling, the need to train regression networks, specialized architectures, or designing and optimizing specific loss functions.
 
 ## <div align="center"> Usage 🖥 </div>
 
 ### Setup
+
 Install all necessary packages in a Python >=3.10 environment:
 ```
    pip install torch torchvision numpy tqdm opencv-python
 ```
 
 ### Extract Face Image Quality Scores
+
 To extract scores for images in a folder,
 1. download pre-trained model weights [from this link](https://share.jankolf.de/s/WWCXmNkj7FTcRpR) and place them in a location of your choice
 2. run `python extract_grafiqs.py` and set arguments accordingly
@@ -69,9 +73,11 @@ To extract scores for images in a folder,
     ```
 
 ### Evaluation and EDC curves
+
 Please refer to [CR-FIQA repository](https://github.com/fdbtrs/CR-FIQA/tree/main) for evaluation and EDC plotting.
 
 ## <div align="center"> Citation ✒ </div>
+
 If you found this work helpful for your research, please cite the article with the following bibtex entry:
 ```
 @misc{kolf2024grafiqs,
