@@ -80,13 +80,21 @@ Please refer to [CR-FIQA repository](https://github.com/fdbtrs/CR-FIQA/tree/main
 
 If you found this work helpful for your research, please cite the article with the following bibtex entry:
 ```
-@misc{kolf2024grafiqs,
-      title={GraFIQs: Face Image Quality Assessment Using Gradient Magnitudes}, 
-      author={Jan Niklas Kolf and Naser Damer and Fadi Boutros},
-      year={2024},
-      eprint={2404.12203},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{DBLP:conf/cvpr/KolfDB22,
+  author       = {Jan Niklas Kolf and
+                  Naser Damer and
+                  Fadi Boutros},
+  title        = {GraFIQs: Face Image Quality Assessment Using Gradient Magnitudes},
+  booktitle    = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+                  {CVPR} 2024 - Workshops, Seattle, WA, USA, June 17-18, 2024},
+  pages        = {1490--1499},
+  publisher    = {{IEEE}},
+  year         = {2024},
+  url          = {https://doi.org/10.1109/CVPRW63382.2024.00156},
+  doi          = {10.1109/CVPRW63382.2024.00156},
+  timestamp    = {Thu, 10 Oct 2024 17:01:03 +0200},
+  biburl       = {https://dblp.org/rec/conf/cvpr/KolfDB22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
